@@ -3,12 +3,18 @@
 <head>
     <title>生日快乐!</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        var myAudio = new Audio('hbd.mp3');
+        myAudio.loop = true;
+        myAudio.play();
+    </script>
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
-    <embed name="GoodEnough" src="hbd.mp3" loop="true" hidden="true" autostart="true">
     <div class="velas">
         <div class="fuego"></div>
         <div class="fuego"></div>
@@ -176,8 +182,8 @@
     <div class="text">
         <h1>生日快乐！</h1>
         <p></p>
-        <p>给你的祝福都藏在后缀里！</p>
-        
+        <!-- <p>给你的祝福都藏在后缀里！</p> -->
+
 
         <p id="blink">
             <span style="color: black;">liweibo.pro</span><span id="type-text" style="color: rgb(87, 132, 255);"></span>
